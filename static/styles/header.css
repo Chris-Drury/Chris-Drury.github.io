@@ -1,0 +1,58 @@
+.css-body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-color:#242227;
+    margin:0px;
+    padding:0px;
+}
+
+.intro {
+    background-color:#F5F5F3;
+    height:500px;
+    width:100%;
+    margin:0px;
+    padding:0px;
+}
+
+.resume:link, .resume:visited {
+    background-color: #242227;
+    color: #87A0A6;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.css-pictures {
+    background-color:#271C28;
+    height:700px;
+    width:100%;
+    margin:0px;
+    padding:0px;
+}
+
+.css-about {
+    background-color:#F5F5F3;
+    height:350px;
+    width:100%;
+    margin:0px;
+    padding:0px;
+}
+
+.css-exp {
+    height:800px;
+    width:100%;
+    margin:0px;
+    padding:0px;
+}
+
+.exp-table, .exp-td {
+    margin: auto;
+}
+
+.css-ref {
+    background-color:#271C28;
+    height:800px;
+    width:100%;
+    margin:0px;
+    padding:0px;
+}
