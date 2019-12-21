@@ -5,6 +5,14 @@
     padding:0px;
 }
 
+.toolbar {
+    background-color: #242227;
+    height:75px;
+    width:100%;
+    margin:0px;
+    padding:0px;
+}
+
 .intro {
     background-color:#F5F5F3;
     height:500px;
@@ -24,11 +32,19 @@
 
 .css-about {
     background-color:#F5F5F3;
-    height:350px;
+    height:300px;
     width:100%;
     margin:0px;
     padding:0px;
+    vertical-align: middle;
 }
+
+.dark-on-white {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: #242227;
+    font-size: 20px;
+}
+
 
 .css-exp {
     height:800px;
