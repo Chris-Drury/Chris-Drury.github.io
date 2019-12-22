@@ -73,6 +73,10 @@
         </div>
     </section>
 
+    <div style="height: 200px;">
+        <p style="font-size:50px;font-weight: bold;color:#F5F5F3;padding: 85px;">Experience</p>
+    </div>
+
     <div style="display: flex;z-index:1;" onmouseover="changePicture('drs');changeBackground('drs-div', '#FFFFFF')" onmouseout="revertPicture('drs');revertBackground('drs-div')">
         <div id="drs-div" class="css-exp drs">
             <span class="helper"></span>
@@ -162,6 +166,9 @@
         </div>
     </div>
 
+    <div class="css-education">
+        <p style="font-size:50px;font-weight: bold;color:#F5F5F3;padding: 85px;">Education</p>
+    </div>
     <script>
         var slideIndex = 0;
         showSlides();
@@ -175,7 +182,7 @@
             slideIndex++;
             if (slideIndex > slides.length) {slideIndex = 1}
             slides[slideIndex-1].style.display = "block";
-            setTimeout(showSlides, 8000); // Change image every 8 seconds
+            setTimeout(showSlides, 54300); // Change image every 8 seconds
         }       
 
         function changePicture(id) {

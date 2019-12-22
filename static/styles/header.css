@@ -55,6 +55,10 @@
     transition: width 2s ease, background-color 2s ease;
 }
 
+.css-exp:hover {
+    width:40%;
+}
+
 .drs:hover, .cw:hover {
     background-color:#FFFFFF;
 }
@@ -96,6 +100,13 @@
     line-height: 1.5;
 }
 
+.css-education {
+    height: 200px;
+    background-color:#271C28;
+    width:100%;
+    margin:0px;
+    padding:0px;
+}
 
 #rcorners {
     border-radius: 25px;
