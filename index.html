@@ -47,24 +47,94 @@
         <br>
         <p class="dark-on-white">Quamquam te quidem video minime esse deterritum. <b>Quamquam tu hanc copiosiorem etiam soles dicere.</b> Cur tantas regiones barbarorum pedibus obiit, tot maria transmisit? Sed ad haec, nisi molestum est, habeo quae velim. Quod vestri quidem vel optime disputant, nihil opus esse eum, qui philosophus futurus sit, scire litteras. Quamquam id quidem, infinitum est in hac urbe; <i>Sed plane dicit quod intellegit.</i> Sedulo, inquam, faciam. Illum mallem levares, quo optimum atque humanissimum virum, Cn. Quantum Aristoxeni ingenium consumptum videmus in musicis? Prioris generis est docilitas, memoria; Sed nonne merninisti licere mihi ista probare, quae sunt a te dicta? </p>   
     </section>
-
-    <section id="drs-div" class="css-exp drs" onmouseover="changePicture('drs');changeBackground('drs-div', '#FFFFFF')">
-        <span class="helper"></span>
-        <img id="drs" src="static\images\drs-technologies-logo.png" style="width:640px;height:83px;">
-    </section>
-    <section id="cw-div" class="css-exp cw" onmouseover="changePicture('cw');changeBackground('cw-div', '#FFFFFF')">
-        <span class="helper"></span>
-        <img id="cw" src="static\images\Curtiss-Wright_logo.png" style="width:640px;height:180px;">
-    </section>
-    <section id="hsky-div" class="css-exp hsky" onmouseover="changePicture('hsky');changeBackground('hsky-div', '#EA1939')">
-        <span class="helper"></span>
-        <img id="hsky" src="static\images\husky-energy.png" style="width:274px;height:240px;">
-    </section>
-    <section id="mun-div" class="css-exp mun" onmouseover="changePicture('mun');changeBackground('mun-div', '#FFFFFF')">
-        <span class="helper"></span>
-        <img id="mun" src="static\images\MUN_Logo_bw.png" style="width:490px;height:300px;">
-    </section>
-
+    <div style="display: flex;">
+        <div id="drs-div" class="css-exp drs" onmouseover="changePicture('drs');changeBackground('drs-div', '#FFFFFF')" onmouseout="revertPicture('drs');revertBackground('drs-div')">
+            <span class="helper"></span>
+            <img id="drs" src="static\images\drs-technologies-logo.png" style="width:640px;height:83px;">
+        </div>
+        <div class="exp-text" style="background-color: #FFFFFF;white-space: nowrap;">
+            <ul>
+                <p style="font-weight: bold;font-size: 25px;">Leonardo DRS</p>
+                <p style="font-weight: bold;font-size: 25px;text-align: right;">August 2019 &#8208; December 2019</p>
+                <p style="font-style: italic;font-size: 23px;">Software Engineering &#8208; Software Engineering Co-op</p><br>
+                <li class="exp-li">Mentored and directed a team of 4 students throughout major milestone projects.</li>
+                <li class="exp-li">Delivered a major Java project responsible for downloading black box data and creating new ARINC frame types.</li>
+                <li class="exp-li">Safely tested communication between project consoles and active black boxes. </li>
+                <li class="exp-li">Created multiple test cases for hardware and software projects, ensuring high quality product realeases.</li>
+                <li class="exp-li">Wrote 90+ pages of Confluence documentation for multiple projects and onboarding to support future projects.</li>
+            </ul>
+        </div>
+    </div>
+    <div style="display: flex;">
+        <div id="cw-div" class="css-exp cw" onmouseover="changePicture('cw');changeBackground('cw-div', '#FFFFFF')" onmouseout="revertPicture('cw');revertBackground('cw-div')">
+            <span class="helper"></span>
+            <img id="cw" src="static\images\Curtiss-Wright_logo.png" style="width:640px;height:180px;">
+        </div>
+        <div class="exp-text" style="background-color: #FFFFFF;white-space: nowrap;">
+            <ul>
+                <p style="font-weight: bold;font-size: 25px;">Curtiss-Wright Defense Solutions</p>
+                <p style="font-weight: bold;font-size: 25px;text-align: right;">January 2019 &#8208; April 2019</p>
+                <p style="font-style: italic;font-size: 23px;">Software Engineering &#8208; Software Engineering Student</p><br>
+                <li class="exp-li">Developed an automated testing framework for ruggedized SBCs using TestStand 2017 and python 3.7.</li>
+                <li class="exp-li">Created multiple new testing reports to be automatically generated after SBC and switching product testing.</li>
+                <li class="exp-li">Saved 96 hours of testing per release by introducing functional automated testing, removing all manual testing.</li>
+                <li class="exp-li">Automated web interface testing for SBC and switching product tests using Python and Selenium.</li>
+                <li class="exp-li">Successfully introduced new long-term testing procedures to Curtiss-Wright’s Ottawa location.</li>
+            </ul>
+        </div>
+    </div>
+    <div style="display: flex;">
+        <div id="wr-div" class="css-exp wr" onmouseover="changePicture('wr');changeBackground('wr-div', '#FFFFFF')" onmouseout="revertPicture('wr');revertBackground('wr-div')">
+            <span class="helper"></span>
+            <img id="wr" src="static\images\Wind-River.png">
+        </div>
+        <div class="exp-text" style="background-color: #FFFFFF;white-space: nowrap;">
+            <ul>
+                <p style="font-weight: bold;font-size: 25px;">Wind River</p>
+                <p style="font-weight: bold;font-size: 25px;text-align: right;">May 2018 &#8208; August 2018</p>
+                <p style="font-style: italic;font-size: 23px;">Information Development &#8208; General InfoDev Student</p><br>
+                <li class="exp-li">Delivered a Python project for converting markup in more than 900 VxWorks source files.</li>
+                <li class="exp-li">Created a Python project to gather information from JIRA’s REST API and generate JIRA project status reports.</li>
+                <li class="exp-li">Tested Titanium Cloud software labs to ensure correctness before delivering to clients.</li>
+                <li class="exp-li">Supervised the completion of a web interface for a JIRA project status report generator.</li>
+            </ul>
+        </div>
+    </div>
+    <div style="display: flex;">
+        <div id="hsky-div" class="css-exp hsky" onmouseover="changePicture('hsky');changeBackground('hsky-div', '#FFFFFF')" onmouseout="revertPicture('hsky');revertBackground('hsky-div')">
+            <span class="helper"></span>
+            <img id="hsky" src="static\images\husky-energy.png" style="width:274px;height:240px;">
+        </div>
+        <div class="exp-text" style="background-color: #FFFFFF;white-space: nowrap;">
+            <ul>
+                <p style="font-weight: bold;font-size: 25px;">Husky Energy</p>
+                <p style="font-weight: bold;font-size: 25px;text-align: right;">January 2017 &#8208; December 2019</p>
+                <p style="font-style: italic;font-size: 23px;">Information Services &#8208; IS Co-op Student</p><br>
+                <li class="exp-li">Maintained and refurbished HSEQ web software.</li>
+                <li class="exp-li">Created documentation outlining HSEQ Web Software for future maintenance.</li>
+                <li class="exp-li">Scheduled regular meetings to present software prototypes for client feedback.</li>
+                <li class="exp-li">Developed HSEQ reporting tools using PL/SQL, HTML5, JavaScript, C#, ASP.Net, and NHibernate.</li>
+                <li class="exp-li">Provided IS customer service to roughly 400 employees at Husky for the course of 8 months.</li>
+                <li class="exp-li">Detailed a new 50-page student onboarding manual for the IS department.</li>
+            </ul>
+        </div>
+    </div>
+    <div style="display: flex;">
+        <div id="mun-div" class="css-exp mun" onmouseover="changePicture('mun');changeBackground('mun-div', '#FFFFFF')" onmouseout="revertPicture('mun');revertBackground('mun-div')">
+            <span class="helper"></span>
+            <img id="mun" src="static\images\MUN_Logo_bw.png" style="width:490px;height:300px;">
+        </div>
+        <div class="exp-text" style="background-color: #FFFFFF;white-space: nowrap;">
+            <ul>
+                <p style="font-weight: bold;font-size: 25px;">Memorial University of Newfoundland</p>
+                <p style="font-weight: bold;font-size: 25px;text-align: right;">June 2016 &#8208; August 2016</p>
+                <p style="font-style: italic;font-size: 23px;">Faculty of Engineering and Applied Science &#8208; Industrial Outreach Mentor</p><br>
+                <li class="exp-li">Taught 280 kids aged 5-12 visual programming using LEGO Mindstorms EV3 and NAO robots.</li>
+                <li class="exp-li">Created detailed and informative programming challenges for the robotics camps.</li>
+                <li class="exp-li">Led demonstrations of NAO and LEGO Mindstorms robots at Boys and Girls Club of St. John’s.</li>
+            </ul>
+        </div>
+    </div>
     <section id="References" class="css-ref">
 
     </section>
@@ -82,12 +152,13 @@
             slideIndex++;
             if (slideIndex > slides.length) {slideIndex = 1}
             slides[slideIndex-1].style.display = "block";
-            setTimeout(showSlides, 8000); // Change image every 2 seconds
+            setTimeout(showSlides, 8000); // Change image every 8 seconds
         }       
 
         function changePicture(id) {
             var src = document.getElementById(id).src;
             if (!src.includes('colour')) {
+                //change the picture to colour
                 var str = src.replace(".png", "-colour.png");
                 document.getElementById(id).src = str;
             }
@@ -95,6 +166,18 @@
 
         function changeBackground(id, colour) {
             var elmnt = document.getElementById(id).style.backgroundColor = colour;
+        }
+
+        function revertPicture(id) {
+            var src = document.getElementById(id).src;
+            if (src.includes('colour')) {
+                var str = src.replace("-colour", "");
+                document.getElementById(id).src = str;
+            }
+        }
+
+        function revertBackground(id) {
+            var elmnt = document.getElementById(id).style.backgroundColor = '#242227';
         }
     </script>
 </body> 
