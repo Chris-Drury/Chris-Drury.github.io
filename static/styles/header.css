@@ -71,11 +71,19 @@
 }
 
 .css-ref {
-    background-color:#271C28;
-    height:800px;
+    background-color:#F5F5F3;
+    height:200px;
     width:100%;
     margin:0px;
     padding:0px;
+}
+
+.css-ref-txt {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: #8A676D;
+    width: 50%;
+    font-style: italic;
+    font-size: 18px;
 }
 
 .exp-text {
@@ -92,3 +100,12 @@
     margin-left: 5%;
     line-height: 1.5;
 }
+
+
+#rcorners {
+    border-radius: 25px;
+    background: #73AD21;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;  
+  }
