@@ -31,7 +31,7 @@
 }
 
 .css-about {
-    background-color:#F5F5F3;
+    background-color:#DB8C96;
     height:300px;
     width:100%;
     margin:0px;
@@ -45,16 +45,23 @@
     font-size: 20px;
 }
 
-
 .css-exp {
-    height:800px;
+    text-align: center;
+    display: block;
+    height:300px;
     width:100%;
-    margin:0px;
+    margin:2px;
     padding:0px;
 }
 
-.exp-table, .exp-td {
-    margin: auto;
+.drs:hover, .cw:hover {
+    background-color:#FFFFFF;
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
 }
 
 .css-ref {
