@@ -55,11 +55,6 @@
     transition: width 2s ease, background-color 2s ease;
 }
 
-.css-exp:hover {
-    width:40%;
-    text-align: right;
-}
-
 .drs:hover, .cw:hover {
     background-color:#FFFFFF;
 }

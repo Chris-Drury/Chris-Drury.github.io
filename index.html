@@ -73,7 +73,7 @@
         </div>
     </section>
 
-    <div style="display: flex;" onmouseover="changePicture('drs');changeBackground('drs-div', '#FFFFFF')" onmouseout="revertPicture('drs');revertBackground('drs-div')">
+    <div style="display: flex;z-index:1;" onmouseover="changePicture('drs');changeBackground('drs-div', '#FFFFFF')" onmouseout="revertPicture('drs');revertBackground('drs-div')">
         <div id="drs-div" class="css-exp drs">
             <span class="helper"></span>
             <img id="drs" src="static\images\drs-technologies-logo.png" style="width:640px;height:83px;">
@@ -184,7 +184,13 @@
                 //change the picture to colour
                 var str = src.replace(".png", "-colour.png");
                 document.getElementById(id).src = str;
+                shortenPicture(id);
             }
+        }
+
+        function shortenPicture(id) {
+            // modify the size of the child div
+            document.getElementById(id + '-div').style.width = "40%";
         }
 
         function changeBackground(id, colour) {
