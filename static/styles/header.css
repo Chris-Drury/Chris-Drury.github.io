@@ -21,6 +21,21 @@
     padding:0px;
 }
 
+.intro-desc {
+    flex-grow: 1;
+    width: 50%;
+    transition: width 2s ease,
+}
+
+.intro-pic {
+    text-align: center;
+    flex-grow: 1;
+    width: 0;
+    min-width: 0px;
+    overflow: hidden;
+    transition: width 2s ease;
+}
+
 .resume:link, .resume:visited {
     background-color: #242227;
     color: #87A0A6;
