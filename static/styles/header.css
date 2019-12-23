@@ -85,6 +85,8 @@
     flex-grow: 1;
     width: 0;
     margin-top:2px;
+    min-width: 0px;
+    overflow: hidden;
 }
 
 .exp-li {
@@ -98,9 +100,9 @@
 
 .css-education {
     height: 200px;
-    background-color:#271C28;
+    background-color:#242227;
     width:100%;
-    margin:0px;
+    margin:0px; 
     margin-bottom: 3px;
     padding-top:0px;
 }
